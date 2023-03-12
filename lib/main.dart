@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:rest_api_example/views/note_list.dart';
 import 'future_builder_fetch.dart';
 import 'home_screen.dart';
 
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        home: HomeScreen());
+        home: NoteList());
   }
 }
